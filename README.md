@@ -7,7 +7,7 @@ product management project using js
 <t/> ⭐ JavaScript  
 
 **Step 1:**&nbsp;Install latest VS code for run this project  
-**Step 2:**&nbsp;Install nodejs for running javasript code
+**Step 2:**&nbsp;Install nodejs for running javasript code  
 **Step 3:**&nbsp;Copy and paste above mentioned html,css,javscript code in your vs code project in 3 separate files  
 - index.html
 - style.css
