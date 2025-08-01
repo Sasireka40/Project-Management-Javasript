@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: lightgray;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: crimson;
+}
+h1{
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px;
+    font-size: 38px;
+}
+.main-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:10px ;
+}
+.product-section{
+    width: 800px;
+    height: 1000px;
+    background-color: rgb(216, 165, 165);
+    border-radius: 10px;
+    border: 1px solid crimson;
+    overflow-y: auto;
+}
+.product-section select{
+     
+     margin-bottom: 20px;
+     padding: 10px;
+     border-radius: 6px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    row-gap: 20px;
+    width: 800px;
+    height: 1000px;
+    gap: 10px;
+    margin-left: 7px;
+    overflow-y: auto;
+}
+.select-items{
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+    gap: 5px;
+    width: 300px;
+}
+.select-items h4{
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.form-section{
+    width: 500px;
+    height: 800px;
+    background-color: rgb(216, 165, 165);
+    border-radius: 10px;
+     border: 1px solid crimson;
+    line-height: 1.8rem;     
+
+}
+fieldset{
+    width: 400px;
+    height: 600px;
+    margin: 20px auto;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+    font-size: 19px
+}
+fieldset [type="text"]{
+    padding: 6px;
+    width: 300px;
+    border: 1px solid gray;
+}
+
+fieldset textarea{
+    width: 300px;
+    height: 40px;
+    resize: none;
+}
+fieldset [type="button"]{
+    margin-left: 110px;
+    padding: 10px;
+    width: 90px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: crimson;
+    border: none;
+    margin-top: 15px;
+}
+fieldset [type="text"]:hover{
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.96);
+    border: 1px solid grey;
+}
+fieldset textarea:hover{
+     box-shadow: 2px 2px 5px rgb(0,0,0,0.96);
+    border: none;
+}
+
+fieldset button:hover ,.flex-items button:hover{
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.96);
+}
+.card-section{
+    width: 250px;
+    height: 250px;
+    background-color: aliceblue;
+    margin-left: 5px;
+    padding: 18px;
+    line-height: 1.5rem;
+    border-radius: 5px;
+    font-size: 17px;
+    /* display: grid;
+    grid-template-columns: repeat(3,250px); */
+}
+.flex-items{
+    display: flex;
+    flex-direction: row;width: 50px;
+    margin-top: 20px;
+    gap: 20px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.flex-items button{
+    padding: 10px;
+    background-color: goldenrod;
+    border-radius: 4px;
+    border: none;
+}
+
+.card-section span{
+    color:darkred;
+}
