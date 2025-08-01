@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <header>
+        <nav>
+             <h1>PRODUCTS</h1>
+        </nav><br>
+        <marquee style="font-size: 18px;">Best Products From Best Sellers!.....</marquee>
+    </header>
+    <div class="main-page">
+        <div id="container" class="product-section" >
+            <h2>Products list</h2>
+            <div class="select-items">
+                <h4>Filter By Category</h4>
+                <select id="filter_item" onchange="applyFilter()">Filter By Category
+                <option value="All" selected>All</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Kitchen Accessories">Kitchen Accessories</option>
+                <option value="Stationary">Stationary</option>
+                <option value="Dresses">Dresses</option>
+                </select>
+            </div>
+            <div id="product_items" class="grid-container">
+
+            </div>
+        </div>
+        <div class="form-section">
+            <form id="form" class="details">
+                <h2>Form</h2>
+                <fieldset>
+                  //form for add edit products
+                    <legend>Add Product</legend>
+                    <label for="pid">Product ID</label><br>
+                    <input type="text" id="pid" required><br>
+
+                    <label for="pname">Product Name</label><br>
+                    <input type="text" id="pname" required><br>
+
+                    <label for="category">Category Name</label><br>
+                    <input type="text" id="cat_id" required><br>
+
+                    <label for="price">Price</label><br>
+                    <input type="text" id="price" required><br>
+
+                    <label for="desc">Description</label><br>
+                    <textarea id="desc" required></textarea><br>
+
+                    <label for="sell_id">Seller ID</label><br>
+                    <input type="text" id="sell_id" required><br>
+
+                    <input type="button" id="btn" onclick="addItems()" value="Add"></button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+  <script src="scripting.js"></script>
+    
+</body>
+</html>
