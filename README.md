@@ -14,7 +14,7 @@ product management project using js
 - scripting.js
 
 
-  ## Funtinalities Added
+  ## Functinalities Added
   - Adding product item
   - Editing product item
   - Delete product
